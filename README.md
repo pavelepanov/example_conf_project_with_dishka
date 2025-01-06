@@ -11,4 +11,4 @@
 3. Установить зависимости \
 ```pip install -r requirements.txt```
 4. Запустить при помощи точки входа \
-```PYTHONPATH=src uvicorn app.run:make_app```# example_conf_project_with_dishka
+```PYTHONPATH=src uvicorn app.run:make_app```
