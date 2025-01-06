@@ -10,5 +10,7 @@
 ```source venv/bin/activate```
 3. Установить зависимости \
 ```pip install -r requirements.txt```
-4. Запустить при помощи точки входа \
+4. Создать файл .env и добавить *SOME_STRING* \
+К примеру, ```SOME_STRING=from_env_hello```
+5. Запустить при помощи точки входа \
 ```PYTHONPATH=src uvicorn app.run:make_app```
